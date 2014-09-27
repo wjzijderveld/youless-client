@@ -33,19 +33,23 @@ $client->getRecentData();
 // Wjzijderveld\Youless\Api\Response\Recent
 
 // Request data per day for a given month
-$client->getDataForMonth(1); (1 - 12)
+// (1 - 12, 1 = January, 12 = December)
+$client->getDataForMonth(1);
 // Wjzijderveld\Youless\Api\Response\History
 
 // Request data per hour for a given day in the last week
-$client->getDataForDay(1); (0 - 6, 0 is today, 6 is 6 days ago)
+// (0 - 6, 0 is today, 6 is 6 days ago)
+$client->getDataForDay(1);
 // Wjzijderveld\Youless\Api\Response\History
 
 // Request data per 10 minutes for the last 8 hours
-$client->getDataFor8Hours(1); (1 = last 8 hours, 2 = 8 till 16 hours ago, 3 = 16 - 32 hours ago)
+// (1 = last 8 hours, 2 = 8 till 16 hours ago, 3 = 16 - 32 hours ago)
+$client->getDataFor8Hours(1);
 // Wjzijderveld\Youless\Api\Response\History
 
 // Request data per minute for the last 30 minutes
-$client->getDataFor30MInutes(1); (1 = last 30 minutes, 2 = 30 minutes till 60 minutes ago)
+// (1 = last 30 minutes, 2 = 30 minutes till 60 minutes ago)
+$client->getDataFor30MInutes(1);
 // Wjzijderveld\Youless\Api\Response\History
 ```
 
