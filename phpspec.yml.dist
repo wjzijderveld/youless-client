@@ -1,3 +1,4 @@
 suites:
   api_suite:
+    namespace: Wjzijderveld\Youless\Api
     psr4_prefix: Wjzijderveld\Youless\Api

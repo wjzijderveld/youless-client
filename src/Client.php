@@ -119,10 +119,4 @@ class Client
     {
         return (float) str_replace(',', '.', $value);
     }
-
-
-    public function getHistoricalData()
-    {
-        $this->browser->get($this->createDataUrl(self::TYPE_HISTORICAL));
-    }
 }
