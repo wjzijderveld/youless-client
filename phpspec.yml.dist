@@ -1,0 +1,3 @@
+suites:
+  api_suite:
+    psr4_prefix: Wjzijderveld\Youless\Api

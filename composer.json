@@ -1,0 +1,22 @@
+{
+    "name": "wjzijderveld/youless-api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Willem-Jan Zijderveld",
+            "email": "wjzijderveld@gmail.com"
+        }
+    ],
+    "require": {
+        "kriswallsmith/buzz": "~0.12",
+        "beberlei/assert": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wjzijderveld\\Youless\\Api\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.0"
+    }
+}
