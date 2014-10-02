@@ -1,6 +1,6 @@
 # Youless API
 
-[![Build Status](https://travis-ci.org/wjzijderveld/youless-api.svg?branch=master)](https://travis-ci.org/wjzijderveld/youless-api)
+[![Build Status](https://travis-ci.org/wjzijderveld/youless-client.svg?branch=master)](https://travis-ci.org/wjzijderveld/youless-client)
 
 The goal of this library is to provide a simple API to a [Youless] webservice.
 
